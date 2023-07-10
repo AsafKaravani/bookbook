@@ -1,0 +1,14 @@
+{
+  "name": "bookbook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AsafKaravani/bookbook.git",
+  "author": "Assaf Noah Koren <assafnoahkoren@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "frontends/*", 
+    "backends/*",
+    "infra/*",
+    "shared/*"
+ ]
+}
