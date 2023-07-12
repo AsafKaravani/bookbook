@@ -14,7 +14,6 @@ function App() {
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-          <h2>ofek</h2>
           <h2>assaf</h2>
         </a>
       </div>
