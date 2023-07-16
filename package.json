@@ -6,9 +6,12 @@
   "author": "Assaf Noah Koren <assafnoahkoren@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "frontends/*", 
+    "frontends/*",
     "backends/*",
     "infra/*",
     "shared/*"
- ]
+  ],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
