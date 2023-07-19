@@ -8,14 +8,6 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello, worlsddsdd!');
 });
 
-app.get('/hi', (req: Request, res: Response) => {
-  res.send('holaaaa');
-});
-
-app.get('/hd', (req: Request, res: Response) => {
-  res.send('hosdsdlaaaa');
-});
-
 // Start the server
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
