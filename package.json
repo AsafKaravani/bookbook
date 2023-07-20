@@ -11,6 +11,5 @@
     "backends/*",
     "infra/*",
     "shared/*"
-  ],
-  "dependencies": {}
+  ]
 }
