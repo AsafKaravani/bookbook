@@ -7,9 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && yarn tsc",
     "prestart": "yarn build",
-    "start": "node dist/server.js",
-    "preserve": "yarn build",
-    "serve": "yarn tsc -w & nodemon dist/server.js"
+    "start": "nodemon dist/server.js",
+    "serve": "nodemon server.ts"
   },
   "author": "",
   "license": "ISC",
