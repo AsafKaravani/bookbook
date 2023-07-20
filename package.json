@@ -11,5 +11,6 @@
     "backends/*",
     "infra/*",
     "shared/*"
-  ]
+  ],
+  "packageManager": "yarn@1.22.19"
 }

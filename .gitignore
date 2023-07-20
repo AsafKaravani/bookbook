@@ -1,5 +1,7 @@
 **/node_modules/**
-.yarn/install-state.gz
-.pnp.cjs
-.pnp.loader.mjs
+
 .yarn/cache
+.yarn/install-state.gz
+.pnp.loader.mjs
+.pnp.cjs
+backends/server/dist
